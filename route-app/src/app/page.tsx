@@ -1,7 +1,9 @@
-import Image from "next/image";
+import TableOfContents from "./components/TableOfContents";
 
 export default function Home() {
   return (
-    <div>Init</div>
+    <div>
+      <TableOfContents/>
+    </div>
   );
 }
