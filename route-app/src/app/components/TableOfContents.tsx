@@ -1,4 +1,4 @@
-import routes from '../../data/pages.json'
+import games from '../data/games.json'
 import Link from 'next/link';
 
 export default function TableOfContents() {
@@ -8,8 +8,8 @@ export default function TableOfContents() {
             <h1 className="text-center text-lg">Table of Contents</h1>
 
             <div className="flex flex-col">
-                {routes.map((route) => (
-                    <Link href={`/pages/${route.id}`} key={route.id}> {route.routeName} </Link>
+                {games.map((route) => (
+                    <Link href={`/games/${route.id}/${route.seo_name}`} key={route.id}> {route.name} </Link>
                 ))}
             </div>
 
