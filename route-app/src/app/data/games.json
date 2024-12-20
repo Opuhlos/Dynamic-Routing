@@ -3,12 +3,14 @@
         "id": "1345191",
         "seo_name": "Fire-Emblem-Engage",
         "name": "Fire Emblem: Engage",
-        "content": "Just because... y'know... yeah!"
+        "content": "Just because... y'know... yeah!",
+        "image": "/images/Switch_FireEmblemEngage_artwork_01.jpg"
     },
     {
         "id": "090129",
         "seo_name": "Persona-4-Golden",
         "name": "Persona 4 Golden",
-        "content": "We did it... this way sorta?"
+        "content": "We did it... this way sorta?",
+        "image": "/images/p4g.jpg"
     }
 ]
